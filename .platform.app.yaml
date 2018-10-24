@@ -1,0 +1,80 @@
+# IU Demo application configuration for Platform.sh.
+#
+# See https://docs.platform.sh/user_guide/reference/platform-app-yaml.html
+
+name: 'app'
+type: 'php:7.2'
+build:
+    flavor: composer
+dependencies:
+    php:
+        'drush/drush': '^9.0'
+        'platformsh/cli': '^3.33.6'
+relationships:
+    database: 'mysqldb:mysql'
+#    solr: 'solrsearch:solr'
+#    redis: 'rediscache:redis'
+
+web:
+    locations:
+        '/':
+            root: 'web'
+            expires: 5m
+            passthru: '/index.php'
+            allow: false
+            rules:
+                '\.(jpe?g|png|gif|svgz?|css|js|map|ico|bmp|eot|woff2?|otf|ttf)$':
+                    allow: true
+                '^/robots\.txt$':
+                    allow: true
+                '^/sitemap\.xml$':
+                    allow: true
+                '^/sites/sites\.php$':
+                    scripts: false
+                '^/sites/[^/]+/settings.*?\.php$':
+                    scripts: false
+
+        '/sites/default/files':
+            allow: true
+            expires: 5m
+            passthru: '/index.php'
+            root: 'web/sites/default/files'
+            scripts: false
+            rules:
+                '^/sites/default/files/(css|js)':
+                    expires: 2w
+disk: 2048
+mounts:
+    '/web/sites/default/files': 'shared:files/files'
+    '/tmp': 'shared:files/tmp'
+    '/private': 'shared:files/private'
+    '/.drush': 'shared:files/.drush'
+    '/drush-backups': 'shared:files/drush-backups'
+    '/.console': 'shared:files/console'
+hooks:
+    # The deploy hook runs after your application has been deployed and started.
+    deploy: |
+      set -e
+      ./drush/platformsh_generate_drush_yml.php
+      cd web
+      drush -y cache-rebuild
+      drush -y updatedb
+      drush -y config-import
+      drush -y entup
+
+timezone: America/Indianapolis
+crons:
+    # The jobs are staggered at :00, :10, :20, :30, :40 to minimize overlap.
+    drupal:
+        # Every twenty minutes.
+        spec: '*/20 * * * *'
+        cmd: 'cd web ; drush core-cron'
+    redeploy:
+        # Redeploy every environment automatically on the 1st and 15th of each
+        # month at 3:45am to ensure Let's Encrypt certificates are updated.
+        spec: '45 3 1/15 * *'
+        cmd: 'platform redeploy --no-wait --yes'
+    snapshots:
+        # Take a snapshot of master environment everyday at 3:05am.
+        spec: '5 3 * * *'
+        cmd: 'if [ $PLATFORM_BRANCH = "master" ]; then platform snapshot:create --yes --no-wait; fi'
