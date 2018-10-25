@@ -2873,7 +2873,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/iu",
-                "reference": "6cadbc7234c7839b30c742d43153efae20e2a193"
+                "reference": "64f75329d2fdce90bee75bbe37f1a69945b62c0b"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2885,7 +2885,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1534454580",
+                    "datestamp": "1540443780",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -2907,7 +2907,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/iu"
             },
-            "time": "2018-09-11T10:45:31+00:00"
+            "time": "2018-10-25T05:12:06+00:00"
         },
         {
             "name": "drupal/iu_paragraphs",
