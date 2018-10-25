@@ -1,0 +1,12 @@
+uuid: 8ea1be37-7323-4590-88e2-d4144017da5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: e1WWTACLcFM7LDAVaOreosnSvFEEvlOh-andZ53ezao
+id: media.one_third_wide
+label: 'One-third wide [2:1] (768×384)'
+targetEntityType: media
+cache: true

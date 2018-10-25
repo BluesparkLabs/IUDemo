@@ -1,0 +1,43 @@
+uuid: 1959cff9-2642-47e3-95d3-2e57a9cfc737
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iu_tab_section.iu_tab_section_body
+    - field.field.paragraph.iu_tab_section.iu_tab_section_title
+    - paragraphs.paragraphs_type.iu_tab_section
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: '-eTny1-JUGgfbD1_Xn0Oj940iQ7PMe07iEqAaakRZdg'
+id: paragraph.iu_tab_section.default
+targetEntityType: paragraph
+bundle: iu_tab_section
+mode: default
+content:
+  iu_tab_section_body:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  iu_tab_section_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

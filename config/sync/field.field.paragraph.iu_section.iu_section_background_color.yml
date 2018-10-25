@@ -1,0 +1,23 @@
+uuid: 039a3f31-f488-4fbc-b575-8922c0cc6d60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_section_background_color
+    - paragraphs.paragraphs_type.iu_section
+  module:
+    - options
+_core:
+  default_config_hash: K5A8iy5g6csYJi9VZOscT4Ydaj68UQVCRD_dRMAFZuI
+id: paragraph.iu_section.iu_section_background_color
+field_name: iu_section_background_color
+entity_type: paragraph
+bundle: iu_section
+label: 'Background color'
+description: '<em>Note: Crimson is Indiana University’s main brand color and should always be used in greater frequency than any secondary color.</em>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

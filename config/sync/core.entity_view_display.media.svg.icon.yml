@@ -1,0 +1,44 @@
+uuid: 5db77622-8636-4de8-a9f7-ffe461ae7ac3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.icon
+    - field.field.media.svg.iu_media_categories
+    - field.field.media.svg.iu_media_svg
+    - media.type.svg
+  module:
+    - field_layout
+    - layout_discovery
+    - svg_image_field
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: j_sUjP88gU1aK8CumZdcJdJ2NF5Pc4apwChSPWRD3bs
+id: media.svg.icon
+targetEntityType: media
+bundle: svg
+mode: icon
+content:
+  iu_media_svg:
+    label: hidden
+    settings:
+      inline: '1'
+      apply_dimensions: '1'
+      width: '25'
+      height: '25'
+      enable_alt: '1'
+      enable_title: '1'
+      link: ''
+    third_party_settings: {  }
+    type: svg_image_field_formatter
+    weight: 0
+    region: content
+hidden:
+  created: true
+  iu_media_categories: true
+  name: true
+  thumbnail: true
+  uid: true

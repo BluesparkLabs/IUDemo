@@ -1,0 +1,11 @@
+uuid: e77eb23e-09c9-4d58-8835-6993ce0c1af0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OVl0J1hGtEW4rTNRvlYxaVnfdihiw25wmToXbg-qzA4
+id: iu_panel_interactive
+label: 'Interactive Panel'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

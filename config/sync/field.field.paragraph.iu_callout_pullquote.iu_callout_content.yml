@@ -1,0 +1,23 @@
+uuid: 1d57a3e7-1f2e-4b19-9818-4dadd64e893e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_callout_content
+    - paragraphs.paragraphs_type.iu_callout_pullquote
+  module:
+    - text
+_core:
+  default_config_hash: 1zVqNke-NChOgeZtubZfTnF9c5FE72G3ZsZGPTvhQKY
+id: paragraph.iu_callout_pullquote.iu_callout_content
+field_name: iu_callout_content
+entity_type: paragraph
+bundle: iu_callout_pullquote
+label: Content
+description: 'Text content for your quote or callout. Links and styling are permitted; however, the text should be as simple as possible. A simple quote/callout has more impact. <strong>Note: Quotation marks will be added automatically around this text if an Attribution is provided below.</strong>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,20 @@
+uuid: 2e21d9c7-9b7e-4f7a-be46-1e20119f9320
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 7jCvybDshnYQLGWu6C2d1MdEYpcnHT_a_OhPlc0u-o8
+id: paragraph.iu_section_horizontal_rule
+field_name: iu_section_horizontal_rule
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

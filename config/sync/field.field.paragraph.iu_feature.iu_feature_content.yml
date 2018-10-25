@@ -1,0 +1,23 @@
+uuid: 6bbc0c77-a3f1-4f52-a932-f998da14ed33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_feature_content
+    - paragraphs.paragraphs_type.iu_feature
+  module:
+    - text
+_core:
+  default_config_hash: Ory8W7jCqIy-xnebmswQiU210YNRcxnvrIoYD-vN6lI
+id: paragraph.iu_feature.iu_feature_content
+field_name: iu_feature_content
+entity_type: paragraph
+bundle: iu_feature
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

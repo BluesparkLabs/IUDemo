@@ -1,0 +1,17 @@
+uuid: bc22c5c8-8857-4be1-b4e2-3c35c3284f6a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fjFiYdPGxw-M38zYpfSJePIRVOwMw4hIWmI776Ndi-c
+name: iu_one_third
+label: 'Content: One-third uncropped (768)'
+effects:
+  71dec613-3039-43d5-bbfc-b3b918a5e249:
+    uuid: 71dec613-3039-43d5-bbfc-b3b918a5e249
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: null
+      upscale: false

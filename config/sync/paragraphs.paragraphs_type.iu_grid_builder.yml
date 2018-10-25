@@ -1,0 +1,11 @@
+uuid: 9e4cb3aa-66ba-4921-9c8d-9b0ddeb19b40
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3FqtKBLaRqsezQJ4Y25MWS6sJBVEkB1nyPAbPqjYMgI
+id: iu_grid_builder
+label: 'Grid Builder Row'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

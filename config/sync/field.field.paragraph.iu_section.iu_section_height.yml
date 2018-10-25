@@ -1,0 +1,23 @@
+uuid: a2ce36bd-61c3-4c8f-b74b-e61d73473c4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_section_height
+    - paragraphs.paragraphs_type.iu_section
+  module:
+    - options
+_core:
+  default_config_hash: XZaYZ9gSUfR3VM7XmaDQEnM8GWzhKuHLOHfWCtr9Vew
+id: paragraph.iu_section.iu_section_height
+field_name: iu_section_height
+entity_type: paragraph
+bundle: iu_section
+label: 'Vertical spacing'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,11 @@
+uuid: 574c9d6d-decc-48ea-aa2a-9a1f29eb370d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z98H_EJYwkDt7S8Vkxw-DWKfiFFngQHwaiYxg-6wcSU
+id: iu_carousel
+label: 'Image Carousel'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

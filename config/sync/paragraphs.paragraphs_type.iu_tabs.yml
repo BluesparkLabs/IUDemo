@@ -1,0 +1,11 @@
+uuid: 59b74145-85ef-4347-ac64-210b8c6a1898
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NataPe8VoAA8Wepnpszk-fHFv-J4kMhMr-LadeSlfr4
+id: iu_tabs
+label: Tabs
+icon_uuid: null
+description: null
+behavior_plugins: {  }

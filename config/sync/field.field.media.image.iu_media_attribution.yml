@@ -1,0 +1,21 @@
+uuid: b024fa5d-45bb-4876-b647-24eb5f07eb3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.iu_media_attribution
+    - media.type.image
+_core:
+  default_config_hash: fkR9Sat3VZp66wv5gyB03sXzP_6c3NircSNgcoUFtM8
+id: media.image.iu_media_attribution
+field_name: iu_media_attribution
+entity_type: media
+bundle: image
+label: Attribution
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

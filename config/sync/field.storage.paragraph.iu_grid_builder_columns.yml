@@ -1,0 +1,22 @@
+uuid: 6f6f4cc7-1302-4f65-9eca-c0eba0833afa
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: JIIMRelW0PlvgL2fbz764iLHw8HNgKWiiqnFFcV12g0
+id: paragraph.iu_grid_builder_columns
+field_name: iu_grid_builder_columns
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 6
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

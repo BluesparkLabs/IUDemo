@@ -1,0 +1,17 @@
+uuid: e1df09b2-fc75-41a0-b1a0-1c0de826f093
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YkHAJGj-K72V-jdWjA7hsOwtAhTD60i2r2uZg0UsvbQ
+name: iu_two_thirds_screen
+label: 'Content: Two-thirds screen [4:3] (1024×768)'
+effects:
+  32b34c91-a5c8-43de-ab47-d87db5ca5b88:
+    uuid: 32b34c91-a5c8-43de-ab47-d87db5ca5b88
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 768
+      anchor: center-center

@@ -1,0 +1,17 @@
+uuid: 6b27c3e8-6d4c-4642-9f24-96351364bc36
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VVncyPedwE4z-hn5LRMGo5YufRSyHJ7fFaU0kP6R3-Q
+name: iu_full_wide
+label: 'Content: Fullwidth wide [2:1] (1024×512)'
+effects:
+  a6e60f6c-25b6-4cb8-82bc-f98d6d8720fd:
+    uuid: a6e60f6c-25b6-4cb8-82bc-f98d6d8720fd
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 512
+      anchor: center-center

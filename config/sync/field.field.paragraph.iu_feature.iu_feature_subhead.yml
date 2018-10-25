@@ -1,0 +1,21 @@
+uuid: e43467b1-f58d-47ee-84c2-031bbd96dd88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_feature_subhead
+    - paragraphs.paragraphs_type.iu_feature
+_core:
+  default_config_hash: wo_LL-eLIBiZ8GzmhOSMrS2kU2T0gLJoZaTCR1hA0qg
+id: paragraph.iu_feature.iu_feature_subhead
+field_name: iu_feature_subhead
+entity_type: paragraph
+bundle: iu_feature
+label: Subhead
+description: 'The subhead is a text-only field in a smaller font size. A feature may have multiple subheads. For example, for a student spotlight, two subheads may be the student’s two majors.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

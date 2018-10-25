@@ -1,0 +1,11 @@
+uuid: ace7fe67-3abd-4d06-b685-8a76e806873e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qH-v88jTUru39S20i8V8lRhrKx9BuJq5FcqYcdbOczQ
+id: iu_callout_pullquote
+label: 'Callout / Pullquote'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

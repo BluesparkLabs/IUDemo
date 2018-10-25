@@ -1,0 +1,23 @@
+uuid: f270374b-1b92-4171-9179-9a32f0b41d8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_image_caption_description
+    - paragraphs.paragraphs_type.iu_image
+  module:
+    - text
+_core:
+  default_config_hash: Ac70r_dw0g3Ro_iXfKfsaVhFcJVN9xNj2eib6ASEm5M
+id: paragraph.iu_image.iu_image_caption_description
+field_name: iu_image_caption_description
+entity_type: paragraph
+bundle: iu_image
+label: 'Caption Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

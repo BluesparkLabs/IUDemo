@@ -1,0 +1,40 @@
+uuid: 1c49735e-f55a-4fb4-9e0a-bc8b6d4942a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iu_carousel.iu_slide_content
+    - paragraphs.paragraphs_type.iu_carousel
+  module:
+    - field_layout
+    - layout_discovery
+    - paragraphs
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: 8Ph1k6J25m6y_nKU9WSyRBLxpXFBSSML318TWUBYojo
+id: paragraph.iu_carousel.default
+targetEntityType: paragraph
+bundle: iu_carousel
+mode: default
+content:
+  iu_slide_content:
+    type: paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Image
+      title_plural: Images
+      edit_mode: open
+      closed_mode: preview
+      autocollapse: all
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: iu_image
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

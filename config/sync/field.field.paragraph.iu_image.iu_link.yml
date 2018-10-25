@@ -1,0 +1,25 @@
+uuid: d2fa86cb-ec37-4812-8ebb-f18171bd15a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_link
+    - paragraphs.paragraphs_type.iu_image
+  module:
+    - link
+_core:
+  default_config_hash: tcvmOkBUCHi-0FRFNK2uTRXxu3SpzLyVMsl1OmfhZd8
+id: paragraph.iu_image.iu_link
+field_name: iu_link
+entity_type: paragraph
+bundle: iu_image
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

@@ -1,0 +1,21 @@
+uuid: 90db0fe3-b813-436a-9831-91e477eab6ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: iI1i5RRXmFIxMIsdt2I7kYhLKjJNXNT_dibV-A9YAyY
+id: paragraph.iu_cta_actions
+field_name: iu_cta_actions
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 35e876e4-c766-4a84-a583-0bd3b06cfb9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: VLz24je6yeIhvo4VZy01JbAKho3uk1xWOr1y2HfhUPY
+id: media.icon
+label: 'Icon (25x25)'
+targetEntityType: media
+cache: true

@@ -1,0 +1,22 @@
+uuid: 63ca112f-f7f9-4771-a421-b1924b9f7bc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - iu
+_core:
+  default_config_hash: wUtvqWKR9NLDvQ0ZiKaWmpIodnclT96xbi0nS2oHxbc
+id: iu_powered
+theme: iu
+region: skirt_connect
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

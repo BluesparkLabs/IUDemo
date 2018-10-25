@@ -1,0 +1,11 @@
+uuid: 7d922b5d-fe43-49b4-aa0d-1490cdd4f4d7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: A62c5dOfrZQeyTGh9KLJwXiYkBcLhm6vIQFkK4YqX78
+id: iu_panel
+label: Panel
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

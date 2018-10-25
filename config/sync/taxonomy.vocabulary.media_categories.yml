@@ -1,0 +1,11 @@
+uuid: 8187045c-e522-4ba7-ae27-fb8578843fc8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KD17OkylHTP7cMqkbB7db3O4Ik7f4kveEdELP5Py690
+name: 'Media Categories'
+vid: media_categories
+description: 'Categorize file uploads for better Media Browser filtering.'
+hierarchy: 0
+weight: 0

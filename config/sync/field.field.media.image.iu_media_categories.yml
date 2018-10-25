@@ -1,0 +1,31 @@
+uuid: 1e56b562-6b9e-49d0-bae1-2897aa635aa7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.iu_media_categories
+    - media.type.image
+    - taxonomy.vocabulary.media_categories
+_core:
+  default_config_hash: nSndUYq07FGj96ax59ztKslOSJvcFmhIiDgTamp6IDk
+id: media.image.iu_media_categories
+field_name: iu_media_categories
+entity_type: media
+bundle: image
+label: Categories
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_categories: media_categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

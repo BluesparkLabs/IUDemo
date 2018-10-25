@@ -1,0 +1,11 @@
+uuid: 9e0f796d-0940-4001-847c-efe050ca0678
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GHhIswim5Tpyb3OIjzSoLTRQV9mKehDBKqyCE-OVTSA
+id: iu_accordion
+label: Accordion
+icon_uuid: null
+description: null
+behavior_plugins: {  }

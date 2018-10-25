@@ -1,0 +1,12 @@
+uuid: 0e83b1f1-180d-4b10-ba01-747baf67b884
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 0yw8jrJdnj5qMrlkEoa7GPt334o--1DrhT9r-SnsowI
+id: media.one_third_standard
+label: 'One-third standard [3:2] (768x512)'
+targetEntityType: media
+cache: true

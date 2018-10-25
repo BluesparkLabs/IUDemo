@@ -1,0 +1,11 @@
+uuid: 988975dd-1922-4227-8637-f05118290693
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PTd8ZpNG4e2afx0frJyY33OPa9SFd4C0Xm6gT1U5D1Q
+id: iu_feature_carousel
+label: 'Feature Carousel'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

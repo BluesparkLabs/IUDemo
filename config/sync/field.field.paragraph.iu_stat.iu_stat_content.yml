@@ -1,0 +1,21 @@
+uuid: ff25060e-e421-49a7-931c-bb1a80929230
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_stat_content
+    - paragraphs.paragraphs_type.iu_stat
+_core:
+  default_config_hash: pNUhw4TCKikpeClftqjIwTCfnqYitZ92PVVhwbDINf4
+id: paragraph.iu_stat.iu_stat_content
+field_name: iu_stat_content
+entity_type: paragraph
+bundle: iu_stat
+label: Content
+description: 'The text associated with the statistic. <strong>Will be capitalized automatically on front-end.</strong>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,32 @@
+uuid: 89262e28-2945-49c9-96a5-a11adc73a38a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - paragraphs
+_core:
+  default_config_hash: gRNDqhKxBpj1XZlpjnQaZakfeLxd9Og5-glYq8fOlmg
+id: paragraph.iu_section_bgimage
+field_name: iu_section_bgimage
+entity_type: paragraph
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

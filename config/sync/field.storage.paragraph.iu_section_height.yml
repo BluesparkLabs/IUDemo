@@ -1,0 +1,26 @@
+uuid: 800bc1eb-20a3-4664-aab5-f4f0cb8daae7
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: Cd2hbEdyWouKjuFi_nHA1irtmfT8KJvGPWwPZ4pikng
+id: paragraph.iu_section_height
+field_name: iu_section_height
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: collapsed
+      label: 'Reduced height'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,11 @@
+uuid: e0053e2b-cc19-4704-9dd5-1803405766b4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8R8nvpAwuRMDTcahqdw_V7JYTcumfNw8Qe9KNkLnAOE
+id: iu_grid_item
+label: Column
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

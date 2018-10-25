@@ -1,0 +1,29 @@
+uuid: 1b5af37e-4f9a-45b6-8398-5c6e965431de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.iu_media_file
+    - media.type.document
+  module:
+    - file
+_core:
+  default_config_hash: CCOtT_dINAdTT--cV1ch7JsvrQLNFBGB_dbjeCn9mbs
+id: media.document.iu_media_file
+field_name: iu_media_file
+entity_type: media
+bundle: document
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: media/document
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,37 @@
+uuid: dcc194d4-9bc7-44a3-a001-6bb9ff829e3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iu_accordion.iu_accordion_section
+    - paragraphs.paragraphs_type.iu_accordion
+  module:
+    - field_layout
+    - layout_discovery
+    - paragraphs
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: 7CULa7o6ABRAF_In_TCRfa892vE7v0Z7CPmPMQ9EvbA
+id: paragraph.iu_accordion.default
+targetEntityType: paragraph
+bundle: iu_accordion
+mode: default
+content:
+  iu_accordion_section:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

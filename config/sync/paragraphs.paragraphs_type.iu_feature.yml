@@ -1,0 +1,11 @@
+uuid: b7eed0a9-723c-40e4-967c-e85f5a90562e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nVjJCmFh7LdScSR8Dz3YRVDtveqTWSjXgYbF7TDPttw
+id: iu_feature
+label: Feature
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

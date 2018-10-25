@@ -1,0 +1,23 @@
+uuid: 79e9e8c5-fa54-419c-9d36-0bf5ec740032
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_panel_content
+    - paragraphs.paragraphs_type.iu_panel
+  module:
+    - text
+_core:
+  default_config_hash: bRlwIJV_5vlevU7zjxHOPBMxohg0DLIA9pD4NF6WWKo
+id: paragraph.iu_panel.iu_panel_content
+field_name: iu_panel_content
+entity_type: paragraph
+bundle: iu_panel
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

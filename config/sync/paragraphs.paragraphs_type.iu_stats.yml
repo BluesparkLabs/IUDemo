@@ -1,0 +1,11 @@
+uuid: 7920f568-b2ef-4307-bc60-425f5504ce4f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mnsZ0VN27iAAh4bsH5-BkIRUbtNNvZtBjHGciLna4ps
+id: iu_stats
+label: Stats
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

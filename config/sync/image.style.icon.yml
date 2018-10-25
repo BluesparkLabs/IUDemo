@@ -1,0 +1,17 @@
+uuid: 30b0629e-d7a2-45a5-9a15-60d1dbbda669
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QLtBH-JYvFYTWAzQkhDy0lI9hLxNKcUdmrKOpvTJfg8
+name: icon
+label: 'Icon (25x25)'
+effects:
+  97d678ac-e888-47e5-af7b-8b86e10ac6d4:
+    uuid: 97d678ac-e888-47e5-af7b-8b86e10ac6d4
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 25
+      upscale: false

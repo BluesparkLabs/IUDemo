@@ -1,0 +1,23 @@
+uuid: 0e7c659b-896a-4a07-aac1-2e87b64810f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_tab_section_body
+    - paragraphs.paragraphs_type.iu_tab_section
+  module:
+    - text
+_core:
+  default_config_hash: WAxPz3Bgigb2WCSU6EUs4bhIHHwxb7ir2YOc7ptN4BU
+id: paragraph.iu_tab_section.iu_tab_section_body
+field_name: iu_tab_section_body
+entity_type: paragraph
+bundle: iu_tab_section
+label: 'Tab Section Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

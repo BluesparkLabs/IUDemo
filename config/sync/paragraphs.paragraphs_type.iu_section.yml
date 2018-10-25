@@ -1,0 +1,11 @@
+uuid: b470a5b0-21b5-43c8-ae3b-1b2afb78cefa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: slCDIhEvskIp-cL7qaNLRYqpEZewfnrxq6aoXoJyU9Y
+id: iu_section
+label: Section
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

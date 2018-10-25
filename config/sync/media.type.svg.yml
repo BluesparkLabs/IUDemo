@@ -1,0 +1,17 @@
+uuid: 1d6280fc-46ce-4269-a205-c3519c3b27a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - svg_image_field
+_core:
+  default_config_hash: L1TNEdfSmJD9kcgSekePe5upI-MvlQtBo3B3Xajl1WU
+id: svg
+label: SVG
+description: 'An SVG file is a scalable vector graphic.'
+source: svg
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: iu_media_svg
+field_map: {  }

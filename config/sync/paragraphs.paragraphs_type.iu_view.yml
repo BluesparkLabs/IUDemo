@@ -1,0 +1,11 @@
+uuid: e90f16c2-7bf9-4b86-893f-8f5d189a5ebb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JTtGCPJuaONo_f96AeCvE4pZ5D8o5iX80aGm7R9O74Q
+id: iu_view
+label: 'Drupal View'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

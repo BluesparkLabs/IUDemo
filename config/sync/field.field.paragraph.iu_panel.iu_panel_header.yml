@@ -1,0 +1,21 @@
+uuid: 6e7a38c0-30c3-4c5d-bb74-72820a23f714
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_panel_header
+    - paragraphs.paragraphs_type.iu_panel
+_core:
+  default_config_hash: 2deiHOazWIhpDSAp_gU_bZ-WkeaXs6vLm5bxPVfoGdY
+id: paragraph.iu_panel.iu_panel_header
+field_name: iu_panel_header
+entity_type: paragraph
+bundle: iu_panel
+label: Header
+description: 'This is the text that appears in a larger font size.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

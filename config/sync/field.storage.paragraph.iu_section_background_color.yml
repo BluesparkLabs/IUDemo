@@ -1,0 +1,32 @@
+uuid: b099c644-8f77-42ca-8d1d-bda8c549d484
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: mHxq09XQlnYfFHd_JuEa1IolAqWeC_D_V7-mddVqYcQ
+id: paragraph.iu_section_background_color
+field_name: iu_section_background_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: crimson
+      label: Crimson
+    -
+      value: gray
+      label: 'Light gray'
+    -
+      value: secondary
+      label: 'Secondary color'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

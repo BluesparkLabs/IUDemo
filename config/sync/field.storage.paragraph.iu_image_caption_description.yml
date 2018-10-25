@@ -1,0 +1,22 @@
+uuid: ddf49e61-ebc8-4d6a-8f28-163d5a25f46c
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: 9zXZgpMhjK-SPnSvT-6z3WOkrsXaZ6FInuZR1N1NU6A
+id: paragraph.iu_image_caption_description
+field_name: iu_image_caption_description
+entity_type: paragraph
+type: text
+settings:
+  max_length: 600
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

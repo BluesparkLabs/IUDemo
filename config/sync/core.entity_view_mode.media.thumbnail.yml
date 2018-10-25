@@ -1,0 +1,12 @@
+uuid: b0fb0aee-3819-4574-b2eb-42087696e4ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: LCd7Ig-L_dKNIM6VkqY7bFwZxWC0cOxVvfmzvBy1K0M
+id: media.thumbnail
+label: 'Square Thumbnail (168x168)'
+targetEntityType: media
+cache: true

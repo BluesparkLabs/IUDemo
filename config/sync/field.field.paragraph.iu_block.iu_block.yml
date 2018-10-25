@@ -1,0 +1,25 @@
+uuid: f670be13-09fa-43ca-a867-1563433b8904
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_block
+    - paragraphs.paragraphs_type.iu_block
+_core:
+  default_config_hash: pIjm8Hj4lo_Q7mjcIRa3EyhIiEb_6nx5RNSuZ6j8Cyk
+id: paragraph.iu_block.iu_block
+field_name: iu_block
+entity_type: paragraph
+bundle: iu_block
+label: Block
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block'
+  handler_settings:
+    target_bundles: null
+    auto_create: true
+field_type: entity_reference

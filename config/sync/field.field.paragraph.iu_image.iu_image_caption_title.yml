@@ -1,0 +1,21 @@
+uuid: 3721e933-1329-40a3-871a-54beeb84cd37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_image_caption_title
+    - paragraphs.paragraphs_type.iu_image
+_core:
+  default_config_hash: g-Y_crc_g4bJc8OvDVjbObYLzjB3t4pbXlqfcSs4eqw
+id: paragraph.iu_image.iu_image_caption_title
+field_name: iu_image_caption_title
+entity_type: paragraph
+bundle: iu_image
+label: 'Caption Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

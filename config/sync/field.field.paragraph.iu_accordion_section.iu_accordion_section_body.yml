@@ -1,0 +1,23 @@
+uuid: 4f2c3bef-5096-41fa-8292-e6594159759f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.iu_accordion_section_body
+    - paragraphs.paragraphs_type.iu_accordion_section
+  module:
+    - text
+_core:
+  default_config_hash: WUqdYThrSd1NjlfPQSPsmh5lE0NrgyOfOvj-lq6POAY
+id: paragraph.iu_accordion_section.iu_accordion_section_body
+field_name: iu_accordion_section_body
+entity_type: paragraph
+bundle: iu_accordion_section
+label: 'Accordion Section Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
