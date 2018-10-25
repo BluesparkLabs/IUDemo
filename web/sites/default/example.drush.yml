@@ -1,0 +1,7 @@
+# Example drush.yml runtime configuration file for the current environment.
+#
+# Copy this file to sites/default/drush.yml which is ignored by git, allowing
+# you to customize it for the current environment.
+options:
+  # Specify the base_url that should be used when generating links.
+  uri: 'http://iudemo.test'

@@ -10,3 +10,36 @@ drush:
     config:
       # The path is relative to the Drupal root.
       - ../.drush/drush.yml
+
+# Default command options.
+command:
+  core:
+    rsync:
+      options:
+        verbose: true
+        mode:  rultvz
+        filter: "'exclude *.tgz'"
+  site:
+    install:
+      options:
+        config-dir: ../config/sync
+        account-name: bluespark
+        account-mail: webmaster@bluespark.com
+  sql:
+    options:
+      structure-tables-key: common
+      skip-tables-key: common
+
+# Special settings for SQL commands.
+sql:
+  structure-tables:
+    common:
+      - cache
+      - 'cache_*'
+      - history
+      - 'search_*'
+      - 'sessions'
+      - 'watchdog'
+  skip-tables:
+    common:
+      - 'migration_*'
