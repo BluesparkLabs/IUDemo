@@ -1,0 +1,88 @@
+uuid: 56f82f8c-53bf-4471-bc74-57a10dae5baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.page
+    - paragraphs.paragraphs_type.iu_section
+  module:
+    - entity_reference_revisions
+id: node.page.field_sections
+field_name: field_sections
+entity_type: node
+bundle: page
+label: Sections
+description: 'Build advanced layouts; leverage chunks and background colors from the IU Style Guide. Please follow <a href="https://styleguide.iu.edu/visual-style/best-practices.html" target="_blank">best practices</a>.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      iu_section: iu_section
+    target_bundles_drag_drop:
+      iu_accordion:
+        weight: 21
+        enabled: false
+      iu_accordion_section:
+        weight: 22
+        enabled: false
+      iu_block:
+        weight: 23
+        enabled: false
+      iu_callout_pullquote:
+        weight: 24
+        enabled: false
+      iu_carousel:
+        weight: 25
+        enabled: false
+      iu_cta:
+        weight: 26
+        enabled: false
+      iu_feature:
+        weight: 27
+        enabled: false
+      iu_feature_carousel:
+        weight: 28
+        enabled: false
+      iu_grid_builder:
+        weight: 29
+        enabled: false
+      iu_grid_item:
+        weight: 30
+        enabled: false
+      iu_image:
+        weight: 31
+        enabled: false
+      iu_panel:
+        weight: 32
+        enabled: false
+      iu_panel_interactive:
+        weight: 33
+        enabled: false
+      iu_section:
+        enabled: true
+        weight: 34
+      iu_stat:
+        weight: 35
+        enabled: false
+      iu_stats:
+        weight: 36
+        enabled: false
+      iu_tabs:
+        weight: 37
+        enabled: false
+      iu_tab_section:
+        weight: 38
+        enabled: false
+      iu_text:
+        weight: 39
+        enabled: false
+      iu_view:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,47 +1,44 @@
-uuid: 8e47766c-c99d-42b5-9094-62d9f014acef
+uuid: a7f7525d-5aa1-4980-a575-84c08362a5d4
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.page.body
     - field.field.node.page.field_sections
     - node.type.page
   module:
     - entity_reference_revisions
     - field_layout
-    - layout_discovery
+    - iu
     - text
     - user
 third_party_settings:
   field_layout:
-    id: layout_onecol
+    id: iu_page_layout
     settings: {  }
 _core:
   default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
-id: node.page.default
+id: node.page.full
 targetEntityType: node
 bundle: page
-mode: default
+mode: full
 content:
   body:
     label: hidden
     type: text_default
-    weight: 100
-    region: content
+    weight: 0
+    region: constrained
     settings: {  }
     third_party_settings: {  }
   field_sections:
-    weight: 102
-    label: above
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    region: edge_to_edge
+    label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    type: entity_reference_revisions_entity_view
-    region: content
-  links:
-    weight: 101
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  links: true
