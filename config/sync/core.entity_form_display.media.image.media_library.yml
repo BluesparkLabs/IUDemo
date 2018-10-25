@@ -1,9 +1,10 @@
-uuid: 8ebd8997-4921-4268-89f4-fd451e044cf0
+uuid: 0b3430ca-ae02-44a8-bac6-5d63b028adca
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.thumbnail
+    - core.entity_form_mode.media.media_library
+    - field.field.media.image.field_media_image
     - field.field.media.image.iu_media_attribution
     - field.field.media.image.iu_media_categories
     - field.field.media.image.iu_media_image
@@ -18,25 +19,33 @@ third_party_settings:
     id: layout_onecol
     settings: {  }
 _core:
-  default_config_hash: nXfkUfbzvLUEaZYBiPuDKSESh6wEgdWyl68SsgOXC9s
-id: media.image.thumbnail
+  default_config_hash: PlyfyVZfALLkP7nbxLpaVKIDUWRioZghWpFDv0_rJ68
+id: media.image.media_library
 targetEntityType: media
 bundle: image
-mode: thumbnail
+mode: media_library
 content:
-  iu_media_image:
-    label: hidden
+  field_media_image:
+    type: image_image
+    weight: 1
+    region: content
     settings:
-      image_style: thumbnail
-      image_link: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image
+  name:
+    type: string_textfield
     weight: 0
     region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
   iu_media_attribution: true
   iu_media_categories: true
-  name: true
-  thumbnail: true
+  iu_media_image: true
+  path: true
+  status: true
   uid: true
