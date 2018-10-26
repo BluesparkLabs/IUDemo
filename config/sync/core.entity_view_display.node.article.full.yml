@@ -17,9 +17,10 @@ dependencies:
     - entity_reference_revisions
     - field_layout
     - image
-    - iu
     - text
     - user
+  theme:
+    - iu
 third_party_settings:
   field_layout:
     id: iu_page_layout
