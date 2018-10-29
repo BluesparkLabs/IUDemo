@@ -72,7 +72,7 @@ crons:
     redeploy:
         # Redeploy every environment automatically on the 1st and 15th of each
         # month at 3:45am to ensure Let's Encrypt certificates are updated.
-        spec: '45 3 1/15 * *'
+        spec: '45 3 1,15 * *'
         cmd: 'platform redeploy --no-wait --yes'
     snapshots:
         # Take a snapshot of master environment everyday at 3:05am.
