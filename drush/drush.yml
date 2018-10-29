@@ -10,6 +10,7 @@ drush:
     config:
       # The path is relative to the Drupal root.
       - ../.drush/drush.yml
+      - sites/default/drush.yml
 
 # Default command options.
 command:
@@ -22,9 +23,11 @@ command:
   site:
     install:
       options:
-        config-dir: ../config/sync
+        #config-dir: ../config/sync # option only required for Drupal 8.5-
+        #existing-config: true  # replaces 'config-dir' option in Drupal 8.6+
         account-name: bluespark
         account-mail: webmaster@bluespark.com
+        verbose: true
   sql:
     options:
       structure-tables-key: common
